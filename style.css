@@ -1,0 +1,88 @@
+body {
+    background-image: url(https://images.unsplash.com/photo-1553864250-05b20249ee0c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8ODl8fG1hcHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    background-position: center;
+    background-color: #0b1122;
+}
+#container {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(226, 130, 3, 0.7);
+    width: 40%;
+    color: #461959;
+    font-family: 'Roboto Mono', monospace;
+    border-radius: 15px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto Mono', monospace;
+    margin: 10px;
+    padding: 10px;
+}
+h1 {
+    align-self: center;
+    color: #461959;
+}
+input {
+    padding: 5px;
+    font-family: 'Roboto Mono', monospace;
+    border-radius: 10px;
+    border: none;
+}
+#billSplit {
+    display: flex;
+    background-color: rgba(98, 230, 137, 0.8);
+    width: 60%;
+    margin-left: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    border: 2px solid black;
+}
+
+#btn {
+    background-color: #A2CDB0;
+    padding: 5px;
+    border-radius: 20px;
+    border: none;
+    margin: 10px;
+    color: beige;
+    font-size: 15px;
+}
+#calculate {
+    background-color: #22A699;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    text-transform: uppercase;
+    color: beige;
+}
+#bag {
+    font-family: 'Roboto Mono', monospace;
+    display: none;
+}
+.caseOff {
+    display: flex;
+    justify-content: center;
+}
+#case {
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+}
+@media all and (max-width:825px) {
+    #container {
+        width: 60%;
+    }
+}
+@media all and (max-width:500px) {
+    #container {
+        width: 75%;
+    }
+    #case {
+        width: 300px;
+        height: 300px;
+    }
+}
